@@ -1,0 +1,173 @@
+Scene:
+  GameMode:
+    Type: GameMode
+    GameMode:
+      m_DefaultPawnPrefab: 11425383865781559611
+      m_DefaultPawnClass: Character
+      m_PlayerControllerPrefab: 14093958444410108335
+      m_PlayerControllerClass: ""
+  Lighting:
+    DirectionalLight:
+      DirectionX: 0.0199999996
+      DirectionY: -0.0700000003
+      DirectionZ: -0.970000029
+      ColorX: 1
+      ColorY: 1
+      ColorZ: 1
+      Intensity: 0.340000004
+      SpecularIntensity: 0.389999986
+      SpecularPower: 1
+    SkyAmbient:
+      SkyColorX: 1
+      SkyColorY: 0.929411769
+      SkyColorZ: 0.525490224
+      GroundColorX: 0.25
+      GroundColorY: 0.25
+      GroundColorZ: 0.25
+      Intensity: 1
+    Environment:
+      UseEnvironmentMap: false
+      DiffuseIBLIntensity: 1
+      SpecularIBLIntensity: 1
+  Actors:
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [30, 0, -3.9877336]
+              Rotation: [0, -0, 0]
+              Scale: [120, 25, 1]
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+        IDComponent:
+          ID: 17040000000000000001
+        NameComponent:
+          Name: MainFloor
+        ActorTagComponent:
+          Tag: ""
+    - LevelPortalActor:
+        m_TickPriority: 0
+        m_TargetScenePath: PlatfromerGame.Ryml
+        m_bRequirePawnOverlap: true
+        m_TransitionDelaySeconds: 0.0500000007
+      Components:
+        ObjectComponents:
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [10, 6.8496933, 0.800000012]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: true
+              bGenerateOverlapEvents: true
+              HalfExtent: [2.5, 2.5, 3.5]
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [84, -8, 0.800000012]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+        IDComponent:
+          ID: 17040000000000000002
+        NameComponent:
+          Name: Portal_Parkour_1
+        ActorTagComponent:
+          Tag: ""
+    - LevelPortalActor:
+        m_TickPriority: 0
+        m_TargetScenePath: ParkourLevel2.Ryml
+        m_bRequirePawnOverlap: true
+        m_TransitionDelaySeconds: 0.0500000007
+      Components:
+        ObjectComponents:
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [10, 0, 0.800000012]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: true
+              bGenerateOverlapEvents: true
+              HalfExtent: [2.5, 2.5, 3.5]
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [84, 0, 0.800000012]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+        IDComponent:
+          ID: 17040000000000000003
+        NameComponent:
+          Name: Portal_Parkour_2
+        ActorTagComponent:
+          Tag: ""
+    - LevelPortalActor:
+        m_TickPriority: 0
+        m_TargetScenePath: ParkourLevel3.Ryml
+        m_bRequirePawnOverlap: true
+        m_TransitionDelaySeconds: 0.0500000007
+      Components:
+        ObjectComponents:
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [10, -7.78575087, 0.800000012]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: true
+              bGenerateOverlapEvents: true
+              HalfExtent: [2.5, 2.5, 3.5]
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [84, 8, 0.800000012]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+        IDComponent:
+          ID: 17040000000000000004
+        NameComponent:
+          Name: Portal_Parkour_3
+        ActorTagComponent:
+          Tag: ""

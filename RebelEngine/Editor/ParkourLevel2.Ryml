@@ -1,0 +1,466 @@
+Scene:
+  GameMode:
+    Type: GameMode
+    GameMode:
+      m_DefaultPawnPrefab: 11425383865781559611
+      m_DefaultPawnClass: Character
+      m_PlayerControllerPrefab: 14093958444410108335
+      m_PlayerControllerClass: ""
+  Lighting:
+    DirectionalLight:
+      DirectionX: 0.0199999996
+      DirectionY: -0.0700000003
+      DirectionZ: -0.970000029
+      ColorX: 1
+      ColorY: 1
+      ColorZ: 1
+      Intensity: 0.340000004
+      SpecularIntensity: 0.389999986
+      SpecularPower: 1
+    SkyAmbient:
+      SkyColorX: 1
+      SkyColorY: 0.929411769
+      SkyColorZ: 0.525490224
+      GroundColorX: 0.25
+      GroundColorY: 0.25
+      GroundColorZ: 0.25
+      Intensity: 1
+    Environment:
+      UseEnvironmentMap: false
+      DiffuseIBLIntensity: 1
+      SpecularIBLIntensity: 1
+  Actors:
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [5.52222776, 1.79291868, -2.70038199]
+              Rotation: [0, -0, 0]
+              Scale: [8, 6, 1]
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+        IDComponent:
+          ID: 12255941070410860586
+        NameComponent:
+          Name: Actor_Copy_Copy_1
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [-2.8641715, 1.87167883, 0.0406832099]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+          - Type: SkeletalMeshComponent
+            Name: SkeletalMeshComponent
+            Properties:
+              m_EditorName: SkeletalMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 1712247608353947290
+              Animation: 10957113239453702604
+              IdleAnimation: 0
+              MoveAnimation: 0
+              JumpAnimation: 0
+              DoubleJumpAnimation: 0
+              FallingAnimation: 0
+              LandAnimation: 0
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+              bDrawSkeleton: false
+              bPlayAnimation: true
+              bLoopAnimation: true
+              bEnableRootMotion: false
+              PlaybackSpeed: 1
+              OverrideBlendOutDuration: 0.0799999982
+        IDComponent:
+          ID: 5213882736866411812
+        NameComponent:
+          Name: Actor
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [56.6113129, -4.50503206, 2.79999995]
+              Rotation: [0, 0, -90.8031769]
+              Scale: [3.99978089, 17.9987869, 6]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+        IDComponent:
+          ID: 5955313858702946244
+        NameComponent:
+          Name: Actor
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [14, -6, -2.70000005]
+              Rotation: [0, -0, 0]
+              Scale: [8, 6, 1]
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+        IDComponent:
+          ID: 16693879290961408433
+        NameComponent:
+          Name: Actor_Copy
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [36, 5, -1]
+              Rotation: [0, -0, 0]
+              Scale: [6, 5, 1]
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+        IDComponent:
+          ID: 12553378346705381391
+        NameComponent:
+          Name: Actor_Copy_Copy
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [76.6622543, 4.53433847, 0.59951514]
+              Rotation: [0, -0, 0]
+              Scale: [5, 5, 1]
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+        IDComponent:
+          ID: 8638664642161747146
+        NameComponent:
+          Name: Actor_Copy_Copy_Copy
+        ActorTagComponent:
+          Tag: ""
+    - LevelPortalActor:
+        m_TickPriority: 0
+        m_TargetScenePath: MainLevel.Ryml
+        m_bRequirePawnOverlap: true
+        m_TransitionDelaySeconds: 0.0500000007
+      Components:
+        ObjectComponents:
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [159.466278, 2.5, 4.15150309]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: true
+              bGenerateOverlapEvents: true
+              HalfExtent: [2.20000005, 2.20000005, 3.20000005]
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [176, 2.5, 3.4000001]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+        IDComponent:
+          ID: 17020000000000000001
+        NameComponent:
+          Name: Portal_To_Main_L2
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [101.534996, 10, 5.19999981]
+              Rotation: [0, -0, 0]
+              Scale: [21.5388088, 1, 7.5]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+        IDComponent:
+          ID: 13956599593994007367
+        NameComponent:
+          Name: Actor_Copy_1
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [132.786026, -7.63886929, 7.5]
+              Rotation: [0, 0, -88.7069244]
+              Scale: [5.00007391, 16.0001373, 6.82892179]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+        IDComponent:
+          ID: 13006164278119483372
+        NameComponent:
+          Name: Actor_Copy_1_Copy
+        ActorTagComponent:
+          Tag: ""
+    - Actor:
+        m_TickPriority: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [160, 1.00899577, -0.578406334]
+              Rotation: [0, -0, 0]
+              Scale: [5, 5, 1]
+          - Type: BoxComponent
+            Name: BoxComponent
+            Properties:
+              m_EditorName: BoxComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              BodyType: Static
+              bIsTrigger: false
+              bGenerateOverlapEvents: true
+              HalfExtent: [1, 1, 1]
+          - Type: StaticMeshComponent
+            Name: StaticMeshComponent
+            Properties:
+              m_EditorName: StaticMeshComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 0]
+              Rotation: [0, 0, 0]
+              Scale: [1, 1, 1]
+              Mesh: 16419860737094521997
+              Material: 0
+              bIsVisible: true
+              bCastShadows: true
+        IDComponent:
+          ID: 17020000000000000011
+        NameComponent:
+          Name: Actor_Copy_Extra_L2
+        ActorTagComponent:
+          Tag: ""
+    - LevelStarterActor:
+        m_TickPriority: 0
+        m_FallResetZ: -20
+        m_bEnableLevelTimer: true
+        m_bResetVelocityOnTeleport: true
+        m_ElapsedSeconds: 0
+      Components:
+        ObjectComponents:
+          - Type: SceneComponent
+            Name: SceneComponent
+            Properties:
+              m_EditorName: SceneComponent
+              ComponentTag: ""
+              m_Position: [0, 0, 3.28684974]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+        IDComponent:
+          ID: 17020000000000000021
+        NameComponent:
+          Name: LevelStarter_L2
+        ActorTagComponent:
+          Tag: ""

@@ -1,0 +1,113 @@
+# =========================
+# Build folders
+# =========================
+/build/
+/Build/
+/bin/
+/Bin/
+/out/
+/Out/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+
+# MSVC build artifacts
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.pch
+*.ipch
+*.aps
+
+# =========================
+# Executables / Libraries
+# =========================
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+*.out
+
+# =========================
+# Temporary / OS files
+# =========================
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDEs
+# =========================
+# Rider / CLion
+.idea/
+
+# VS Code
+.vscode/
+
+# =========================
+# Testing / Coverage
+# =========================
+*.gcda
+*.gcno
+*.gcov
+
+# =========================
+# Package managers
+# =========================
+# vcpkg
+vcpkg_installed/
+
+# Conan
+conanbuildinfo.*
+conan.lock
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.opensdf
+*.sdf
+
+# =========================
+# Optional (keep if needed)
+# =========================
+# Ignore large assets (uncomment if needed)
+# *.fbx
+# *.png
+# *.jpg
