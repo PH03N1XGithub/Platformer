@@ -1,5 +1,10 @@
 # Rebel Engine Game Guide
 
+## Build Instructions
+
+For full build setup and instructions, see the Rebel Engine repository:
+https://github.com/PH03N1XGithub/Rebel-Engine
+
 ## Overview
 
 This is the gameplay guide for the platformer mini-game built in Rebel Engine.
