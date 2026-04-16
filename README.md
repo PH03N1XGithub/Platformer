@@ -36,7 +36,7 @@ Each parkour level has a portal at the end that returns to `MainLevel.Ryml`.
 
 - Coyote time is enabled in character movement.
 - Double-jump behavior is available via the movement setup.
-- Wall run can start while airborne near a runnable wall.
+- Wall run can start when pressing `Space` while airborne near a runnable wall.
 - Wall jump triggers when pressing `Space` during wall run.
 
 ## Timer
